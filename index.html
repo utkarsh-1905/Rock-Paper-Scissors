@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Components/style.css" />
+    <script src="Components/workflow.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Rock,Paper & Scissors</title>
+    <style>
+      * {
+        font-family: "Zen Dots", cursive;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2 class="animate__animated animate__heartBeat animate__slower" >
+        A Game of Rock, Paper & Scissors !!
+      </h2>
+    </header>
+    <div class="container-1">
+      <h3 id="choi">SELECT YOUR CHOICE :</h3>
+      <div class="flexbox-img" id="flexbox-img" >
+        <img
+          src="Images/rock.png"
+          alt="rock"
+          id="rock"
+          height="200px"
+          width="200px"
+          onclick="rps(this)"
+        />
+        <img
+          src="Images/paper.jpg"
+          alt="paper"
+          id="paper"
+          height="200px"
+          width="200px"
+          onclick="rps(this)"
+        />
+        <img
+          src="Images/scissor.png"
+          alt="scissors"
+          id="scissors"
+          height="200px"
+          width="200px"
+          onclick="rps(this)"
+        />
+      </div>
+    </div>
+   <div class="ntb"> <button type="button" onclick="history.go(0)"  >Play!! </button></div>
+  </body>
+</html>
