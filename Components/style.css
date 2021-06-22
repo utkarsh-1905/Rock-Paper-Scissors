@@ -30,6 +30,7 @@ header {
   background-color: #1d1f20;
   border-bottom: 1px solid black;
   box-shadow: 0px 5px 15px #ff0d52, 0px 5px 20px black, 0px 5px 13px #4d13e8;
+  overflow: hidden ;
 }
 
 .container-1 {
